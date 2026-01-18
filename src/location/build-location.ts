@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
+import tzLookup from 'tz-lookup';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -177,7 +178,3 @@ main().catch((error) => {
   console.error('Fatal error:', error);
   process.exit(1);
 });
-function tzLookup(lat: number, lon: number): string | null {
-    throw new Error('Function not implemented.');
-}
-
