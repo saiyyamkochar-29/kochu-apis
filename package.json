@@ -1,5 +1,14 @@
 {
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:location": "npm run build && node dist/location/build-location.js"
+  },
   "dependencies": {
-    "typescript": "^5.9.3"
+    "tz-lookup": "^6.1.25"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^20.0.0"
   }
 }
