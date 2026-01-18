@@ -36,20 +36,21 @@ function calculateAge(birthDate: Date): number {
 
 /**
  * Get next birthday (next occurrence of birth month/day after now)
- * Returns the date at local midnight
+ * Returns the date at UTC midnight to ensure correct date in ISO string
  */
 function getNextBirthday(birthDate: Date, timeZone: string): Date {
   const now = new Date();
   const currentYear = now.getFullYear();
-  const birthMonth = birthDate.getMonth();
-  const birthDay = birthDate.getDate();
+  // Use UTC methods to extract month/day to avoid timezone issues
+  const birthMonth = birthDate.getUTCMonth();
+  const birthDay = birthDate.getUTCDate();
 
-  // Create next birthday in current year
-  let nextBirthday = new Date(currentYear, birthMonth, birthDay, 0, 0, 0, 0);
+  // Create next birthday in current year at UTC midnight
+  let nextBirthday = new Date(Date.UTC(currentYear, birthMonth, birthDay, 0, 0, 0, 0));
 
   // If birthday has already passed this year, use next year
   if (nextBirthday <= now) {
-    nextBirthday = new Date(currentYear + 1, birthMonth, birthDay, 0, 0, 0, 0);
+    nextBirthday = new Date(Date.UTC(currentYear + 1, birthMonth, birthDay, 0, 0, 0, 0));
   }
 
   return nextBirthday;
