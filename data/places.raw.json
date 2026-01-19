@@ -1,0 +1,17 @@
+{
+  "home": {
+    "city": "State College",
+    "region": "PA",
+    "country": "United States"
+  },
+  "places": [
+    { "city": "New York", "region": "NY", "country": "United States" },
+    { "city": "Las Vegas", "region": "NV", "country": "United States" },
+    { "city": "San Juan", "region": "PR", "country": "United States" },
+    { "city": "Myrtle Beach", "region": "SC", "country": "United States" },
+    { "city": "Phoenix", "region": "AZ", "country": "United States" },
+    { "city": "San Diego", "region": "CA", "country": "United States" },
+    { "city": "Miami", "region": "FL", "country": "United States" },
+    { "city": "Durham", "region": "NC", "country": "United States" }
+  ]
+}

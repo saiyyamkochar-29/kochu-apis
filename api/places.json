@@ -1,0 +1,59 @@
+{
+  "updatedAt": "2026-01-19T04:54:39.233Z",
+  "home": {
+    "city": "State College",
+    "region": "PA",
+    "country": "United States"
+  },
+  "count": 8,
+  "places": [
+    {
+      "city": "Durham",
+      "region": "NC",
+      "country": "United States",
+      "key": "durham|nc|united states"
+    },
+    {
+      "city": "Las Vegas",
+      "region": "NV",
+      "country": "United States",
+      "key": "las vegas|nv|united states"
+    },
+    {
+      "city": "Miami",
+      "region": "FL",
+      "country": "United States",
+      "key": "miami|fl|united states"
+    },
+    {
+      "city": "Myrtle Beach",
+      "region": "SC",
+      "country": "United States",
+      "key": "myrtle beach|sc|united states"
+    },
+    {
+      "city": "New York",
+      "region": "NY",
+      "country": "United States",
+      "key": "new york|ny|united states"
+    },
+    {
+      "city": "Phoenix",
+      "region": "AZ",
+      "country": "United States",
+      "key": "phoenix|az|united states"
+    },
+    {
+      "city": "San Diego",
+      "region": "CA",
+      "country": "United States",
+      "key": "san diego|ca|united states"
+    },
+    {
+      "city": "San Juan",
+      "region": "PR",
+      "country": "United States",
+      "key": "san juan|pr|united states"
+    }
+  ]
+}

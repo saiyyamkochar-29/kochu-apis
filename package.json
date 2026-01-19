@@ -3,7 +3,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "build:location": "npm run build && node dist/location/build-location.js",
-    "build:age": "npm run build && node dist/age/build-age.js"
+    "build:age": "npm run build && node dist/age/build-age.js",
+    "build:places": "npm run build && node dist/places/build-places.js"
   },
   "dependencies": {
     "tz-lookup": "^6.1.25"
