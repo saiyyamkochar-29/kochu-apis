@@ -1,0 +1,41 @@
+name: Sync Places
+
+on:
+  schedule:
+    # Run every 3 days at 03:00 UTC
+    - cron: '0 3 */3 * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch states from Worker
+        run: |
+          curl -sS https://kochu-register.saiyyamkochar.workers.dev/states > data/places/registered.json
+
+      - name: Build places
+        run: npm run build:places
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add api/places.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🌍 Saiyyam travelled to new State!"
+            git push
+          fi

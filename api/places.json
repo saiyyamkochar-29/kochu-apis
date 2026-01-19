@@ -1,59 +1,65 @@
 {
-  "updatedAt": "2026-01-19T05:02:35.979Z",
+  "updatedAt": "2026-01-19T06:26:34.346Z",
   "home": {
     "city": "Patton Township",
     "region": "Pennsylvania",
     "country": "United States"
   },
-  "count": 8,
+  "count": 9,
   "places": [
     {
-      "city": "Durham",
-      "region": "NC",
+      "region": "Arizona",
       "country": "United States",
-      "key": "durham|nc|united states"
+      "firstCity": "Phoenix",
+      "key": "arizona|united states"
     },
     {
-      "city": "Las Vegas",
-      "region": "NV",
+      "region": "California",
       "country": "United States",
-      "key": "las vegas|nv|united states"
+      "firstCity": "San Diego",
+      "key": "california|united states"
     },
     {
-      "city": "Miami",
-      "region": "FL",
+      "region": "Florida",
       "country": "United States",
-      "key": "miami|fl|united states"
+      "firstCity": "Miami",
+      "key": "florida|united states"
     },
     {
-      "city": "Myrtle Beach",
-      "region": "SC",
+      "region": "Nevada",
       "country": "United States",
-      "key": "myrtle beach|sc|united states"
+      "firstCity": "Las Vegas",
+      "key": "nevada|united states"
     },
     {
-      "city": "New York",
-      "region": "NY",
+      "region": "New York",
       "country": "United States",
-      "key": "new york|ny|united states"
+      "firstCity": "New York",
+      "key": "new york|united states"
     },
     {
-      "city": "Phoenix",
-      "region": "AZ",
+      "region": "North Carolina",
       "country": "United States",
-      "key": "phoenix|az|united states"
+      "firstCity": "Durham",
+      "key": "north carolina|united states"
     },
     {
-      "city": "San Diego",
-      "region": "CA",
+      "region": "Pennsylvania",
       "country": "United States",
-      "key": "san diego|ca|united states"
+      "firstCity": "State College",
+      "key": "pennsylvania|united states"
     },
     {
-      "city": "San Juan",
-      "region": "PR",
+      "region": "Puerto Rico",
       "country": "United States",
-      "key": "san juan|pr|united states"
+      "firstCity": "San Juan",
+      "key": "puerto rico|united states"
+    },
+    {
+      "region": "South Carolina",
+      "country": "United States",
+      "firstCity": "Myrtle Beach",
+      "key": "south carolina|united states"
     }
   ]
 }

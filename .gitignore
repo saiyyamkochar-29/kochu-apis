@@ -24,3 +24,6 @@ yarn-error.log*
 # OS
 .DS_Store
 Thumbs.db
+
+# Temporary build inputs (fetched by GitHub Actions)
+data/places/registered.json
