@@ -1,8 +1,8 @@
 {
   "home": {
-    "city": "State College",
-    "region": "PA",
-    "country": "United States"
+    "country": "United States",
+    "state": "Pennsylvania",
+    "city": "Patton Township"
   },
   "places": [
     { "city": "New York", "region": "NY", "country": "United States" },

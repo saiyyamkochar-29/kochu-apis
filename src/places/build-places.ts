@@ -11,8 +11,15 @@ interface Place {
   country: string;
 }
 
+interface RawHome {
+  city: string;
+  region?: string;
+  state?: string;
+  country: string;
+}
+
 interface RawPlaces {
-  home: Place;
+  home: RawHome;
   places: Place[];
 }
 
@@ -25,6 +32,17 @@ interface PlacesOutput {
   home: Place;
   count: number;
   places: PlaceWithKey[];
+}
+
+/**
+ * Normalize a home object, converting state to region if needed
+ */
+function normalizeHome(rawHome: RawHome): Place {
+  return {
+    city: rawHome.city.trim(),
+    region: (rawHome.region || rawHome.state || '').trim(),
+    country: rawHome.country.trim(),
+  };
 }
 
 /**
@@ -73,8 +91,8 @@ function main() {
     process.exit(1);
   }
 
-  // Normalize home
-  const { normalized: home } = normalizePlace(rawData.home);
+  // Normalize home (handles both state and region fields)
+  const home = normalizeHome(rawData.home);
 
   // Normalize and dedupe places
   const seenKeys = new Set<string>();
