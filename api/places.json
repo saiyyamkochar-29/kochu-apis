@@ -1,12 +1,72 @@
 {
-  "updatedAt": "2026-01-19T06:47:16.226Z",
+  "updatedAt": "2026-01-19T06:55:51.074Z",
   "home": {
     "city": "Patton Township",
     "region": "Pennsylvania",
     "country": "United States"
   },
-  "count": 8,
+  "count": 24,
   "places": [
+    {
+      "region": "Delhi",
+      "country": "India",
+      "firstCity": "New Delhi",
+      "key": "delhi|india"
+    },
+    {
+      "region": "Goa",
+      "country": "India",
+      "firstCity": "Panaji",
+      "key": "goa|india"
+    },
+    {
+      "region": "Himachal Pradesh",
+      "country": "India",
+      "firstCity": "Shimla",
+      "key": "himachal pradesh|india"
+    },
+    {
+      "region": "Jammu and Kashmir",
+      "country": "India",
+      "firstCity": "Srinagar",
+      "key": "jammu and kashmir|india"
+    },
+    {
+      "region": "Punjab",
+      "country": "India",
+      "firstCity": "Chandigarh",
+      "key": "punjab|india"
+    },
+    {
+      "region": "Rajasthan",
+      "country": "India",
+      "firstCity": "Jaipur",
+      "key": "rajasthan|india"
+    },
+    {
+      "region": "Uttar Pradesh",
+      "country": "India",
+      "firstCity": "Lucknow",
+      "key": "uttar pradesh|india"
+    },
+    {
+      "region": "Singapore",
+      "country": "Singapore",
+      "firstCity": "Singapore",
+      "key": "singapore|singapore"
+    },
+    {
+      "region": "Phuket",
+      "country": "Thailand",
+      "firstCity": "Phuket",
+      "key": "phuket|thailand"
+    },
+    {
+      "region": "Dubai",
+      "country": "United Arab Emirates",
+      "firstCity": "Dubai",
+      "key": "dubai|united arab emirates"
+    },
     {
       "region": "California",
       "country": "United States",
@@ -20,10 +80,34 @@
       "key": "florida|united states"
     },
     {
+      "region": "Illinois",
+      "country": "United States",
+      "firstCity": "Chicago",
+      "key": "illinois|united states"
+    },
+    {
+      "region": "Maryland",
+      "country": "United States",
+      "firstCity": "Baltimore",
+      "key": "maryland|united states"
+    },
+    {
+      "region": "Massachusetts",
+      "country": "United States",
+      "firstCity": "Boston",
+      "key": "massachusetts|united states"
+    },
+    {
       "region": "Nevada",
       "country": "United States",
       "firstCity": "Las Vegas",
       "key": "nevada|united states"
+    },
+    {
+      "region": "New Jersey",
+      "country": "United States",
+      "firstCity": "Jersey City",
+      "key": "new jersey|united states"
     },
     {
       "region": "New York",
@@ -50,10 +134,22 @@
       "key": "puerto rico|united states"
     },
     {
+      "region": "Rhode Island",
+      "country": "United States",
+      "firstCity": "Providence",
+      "key": "rhode island|united states"
+    },
+    {
       "region": "South Carolina",
       "country": "United States",
       "firstCity": "Myrtle Beach",
       "key": "south carolina|united states"
+    },
+    {
+      "region": "Texas",
+      "country": "United States",
+      "firstCity": "Austin",
+      "key": "texas|united states"
     }
   ]
 }
