@@ -1,17 +1,59 @@
 {
-  "updatedAt": "2026-01-19T06:37:41.342Z",
+  "updatedAt": "2026-01-19T06:47:16.226Z",
   "home": {
     "city": "Patton Township",
     "region": "Pennsylvania",
     "country": "United States"
   },
-  "count": 1,
+  "count": 8,
   "places": [
+    {
+      "region": "California",
+      "country": "United States",
+      "firstCity": "San Diego",
+      "key": "california|united states"
+    },
+    {
+      "region": "Florida",
+      "country": "United States",
+      "firstCity": "Miami",
+      "key": "florida|united states"
+    },
+    {
+      "region": "Nevada",
+      "country": "United States",
+      "firstCity": "Las Vegas",
+      "key": "nevada|united states"
+    },
+    {
+      "region": "New York",
+      "country": "United States",
+      "firstCity": "New York",
+      "key": "new york|united states"
+    },
+    {
+      "region": "North Carolina",
+      "country": "United States",
+      "firstCity": "Durham",
+      "key": "north carolina|united states"
+    },
     {
       "region": "Pennsylvania",
       "country": "United States",
       "firstCity": "Patton Township",
       "key": "pennsylvania|united states"
+    },
+    {
+      "region": "Puerto Rico",
+      "country": "United States",
+      "firstCity": "San Juan",
+      "key": "puerto rico|united states"
+    },
+    {
+      "region": "South Carolina",
+      "country": "United States",
+      "firstCity": "Myrtle Beach",
+      "key": "south carolina|united states"
     }
   ]
 }
