@@ -1,7 +1,11 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { XboxWebApiClient } from 'xbox-webapi';
+// @ts-ignore
+import XboxWebApiClient from 'xbox-webapi';
+
+// @ts-ignore
+const clientFactory = XboxWebApiClient as any;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -61,11 +65,17 @@ async function main() {
     process.exit(1);
   }
 
-  const client = XboxWebApiClient({ clientId: '', clientSecret: '' });
-  await client.authenticate(refreshToken);
+  const client = clientFactory({ clientId: 'dummy', clientSecret: '' });
+
+  // Set up refresh token for authentication
+  client._authentication._tokens.oauth.refresh_token = refreshToken;
+  await client.isAuthenticated();
+
+  // Override the XUID with the provided one
+  client._authentication._user.xid = xuid;
 
   const titleHubProvider = client.getProvider('titlehub');
-  const titleHistory = await titleHubProvider.getTitleHistory(xuid);
+  const titleHistory = await titleHubProvider.getTitleHistory();
 
   const recentGames: XboxGame[] = (titleHistory.titles || [])
     .slice(0, 10)

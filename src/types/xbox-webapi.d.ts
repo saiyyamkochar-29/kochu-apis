@@ -4,10 +4,11 @@ declare module 'xbox-webapi' {
     clientSecret?: string;
   }
 
-  interface XboxWebApiClient {
-    authenticate(refreshToken: string): Promise<void>;
+interface XboxWebApiClient {
+    isAuthenticated(): Promise<void>;
     getProvider(name: string): any;
-  }
+    _authentication: any;
+}
 
   interface XboxWebApiTitleHistory {
     titles?: XboxWebApiTitle[];
@@ -23,9 +24,9 @@ declare module 'xbox-webapi' {
     type?: string;
   }
 
-  interface XboxWebApiProvider {
-    getTitleHistory(xuid: string): Promise<XboxWebApiTitleHistory>;
-  }
+interface XboxWebApiProvider {
+    getTitleHistory(): Promise<XboxWebApiTitleHistory>;
+}
 
-  function XboxWebApiClient(config?: XboxWebApiConfig): XboxWebApiClient;
+  declare function XboxWebApiClient(config?: XboxWebApiConfig): XboxWebApiClient;
 }
