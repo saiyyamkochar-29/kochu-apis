@@ -5,8 +5,6 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const IGNORED_ARTISTS = new Set(['1raj', 'rasraj ji maharaj']);
-
 type LastFmImage = {
   ['#text']?: string;
   size?: string;
@@ -43,6 +41,29 @@ function normalizeWhitespace(str: string): string {
 
 function normalizeArtistName(name: string): string {
   return normalizeWhitespace(name).toLowerCase();
+}
+
+function parseIgnoredArtistsEnv(): Set<string> {
+  const raw = process.env.LASTFM_IGNORED_ARTISTS;
+  if (!raw || !normalizeWhitespace(raw)) {
+    return new Set();
+  }
+
+  try {
+    const parsed = JSON.parse(raw) as unknown;
+    if (!Array.isArray(parsed)) {
+      return new Set();
+    }
+
+    const normalized = parsed
+      .filter((v): v is string => typeof v === 'string')
+      .map((v) => normalizeArtistName(v))
+      .filter((v) => v.length > 0);
+
+    return new Set(normalized);
+  } catch {
+    return new Set();
+  }
 }
 
 function pickBestImage(images: LastFmImage[] | undefined): string | null {
@@ -99,6 +120,7 @@ async function fetchTopArtists(params: { apiKey: string; user: string }): Promis
 async function main() {
   const apiKey = process.env.LASTFM_API_KEY;
   const user = process.env.LASTFM_USER;
+  const ignoredArtists = parseIgnoredArtistsEnv();
 
   if (!apiKey || !normalizeWhitespace(apiKey)) {
     console.error('Missing env var: LASTFM_API_KEY');
@@ -120,7 +142,7 @@ async function main() {
       const playcountNum = Number.parseInt(normalizeWhitespace(a.playcount || ''), 10);
       if (!name) return null;
       if (Number.isNaN(playcountNum)) return null;
-      if (IGNORED_ARTISTS.has(normalizeArtistName(name))) return null;
+      if (ignoredArtists.has(normalizeArtistName(name))) return null;
       return {
         name,
         playcount: playcountNum,
