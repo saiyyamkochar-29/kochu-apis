@@ -36,6 +36,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "🌍 Saiyyam travelled to new State!"
+            git commit -m "🌍 Saiyyam travelled to new Place!"
             git push
           fi
