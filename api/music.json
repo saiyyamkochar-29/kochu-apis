@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-21T05:12:27.620Z",
+  "updatedAt": "2026-01-21T06:50:06.548Z",
   "topArtists": [
     {
       "name": "godblesscomputers",
@@ -14,6 +14,11 @@
     {
       "name": "Milan93",
       "playcount": 3,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+    },
+    {
+      "name": "1RAJ",
+      "playcount": 2,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
@@ -68,11 +73,6 @@
     },
     {
       "name": "Clive From Accounts",
-      "playcount": 1,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "Dan Kye",
       "playcount": 1,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
