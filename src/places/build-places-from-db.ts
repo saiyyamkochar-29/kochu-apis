@@ -33,7 +33,6 @@ interface StatePlaceWithKey extends StatePlace {
 }
 
 interface PlacesOutput {
-  updatedAt: string;
   home: Home;
   count: number;
   places: StatePlaceWithKey[];
@@ -148,7 +147,6 @@ function main() {
 
   // Build output object
   const output: PlacesOutput = {
-    updatedAt: new Date().toISOString(),
     home,
     count: sortedPlaces.length,
     places: sortedPlaces,

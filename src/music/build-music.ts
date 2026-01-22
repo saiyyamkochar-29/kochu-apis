@@ -31,7 +31,6 @@ type MusicArtist = {
 };
 
 type MusicOutput = {
-  updatedAt: string;
   topArtists: MusicArtist[];
 };
 
@@ -153,7 +152,6 @@ async function main() {
     .slice(0, 15);
 
   const output: MusicOutput = {
-    updatedAt: new Date().toISOString(),
     topArtists: filtered,
   };
 
