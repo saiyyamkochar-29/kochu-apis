@@ -1,6 +1,11 @@
 {
-  "updatedAt": "2026-01-21T18:55:01.032Z",
+  "updatedAt": "2026-01-22T02:27:24.443Z",
   "topArtists": [
+    {
+      "name": "1RAJ",
+      "playcount": 6,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+    },
     {
       "name": "godblesscomputers",
       "playcount": 4,
@@ -14,11 +19,6 @@
     {
       "name": "Juando",
       "playcount": 3,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "1RAJ",
-      "playcount": 2,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
