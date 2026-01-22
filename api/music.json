@@ -1,11 +1,6 @@
 {
-  "updatedAt": "2026-01-22T02:27:24.443Z",
+  "updatedAt": "2026-01-22T04:06:21.080Z",
   "topArtists": [
-    {
-      "name": "1RAJ",
-      "playcount": 6,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
     {
       "name": "godblesscomputers",
       "playcount": 4,
@@ -73,6 +68,11 @@
     },
     {
       "name": "Bootie Grove",
+      "playcount": 1,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+    },
+    {
+      "name": "Chaos in the CBD",
       "playcount": 1,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
