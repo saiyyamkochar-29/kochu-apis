@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-02-08T07:49:43.793Z",
+  "updatedAt": "2026-02-08T07:51:18.829Z",
   "segments": 1,
-  "sleepSeconds": 26847,
-  "sleepMinutes": 447,
-  "sleepHours": 7.46,
+  "sleepSeconds": 15688,
+  "sleepMinutes": 261,
+  "sleepHours": 4.36,
   "detailed": {
-    "hours": 7,
-    "minutes": 27,
-    "seconds": 27,
-    "hhmm": "7:27",
-    "hhmmss": "7:27:27"
+    "hours": 4,
+    "minutes": 21,
+    "seconds": 28,
+    "hhmm": "4:21",
+    "hhmmss": "4:21:28"
   }
 }
