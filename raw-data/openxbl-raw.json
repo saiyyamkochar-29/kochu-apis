@@ -1,0 +1,566 @@
+{
+  "_fetchedAt": "2026-02-08T10:15:41.119Z",
+  "_xuidUsed": "2535457796774614",
+  "_titleCount": 11,
+  "titles": [
+    {
+      "name": "High On Life",
+      "titleId": "1874191487",
+      "lastPlayed": "2026-02-05T04:45:48.964Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.52715.13714596773589453.b0e22fc5-f8b4-4b36-b12d-db5d42554c10.e5dbf670-e6a5-411e-8e49-0a6f37882f87",
+      "_raw": {
+        "titleId": "1874191487",
+        "pfn": "2637SquanchGamesInc.HighonLife_mh7dg3tfmz2cj",
+        "bingId": null,
+        "serviceConfigId": "00000000-0000-0000-0000-00006fb5e47f",
+        "windowsPhoneProductId": null,
+        "name": "High On Life",
+        "type": "Game",
+        "devices": [
+          "PC",
+          "XboxOne",
+          "XboxSeries"
+        ],
+        "displayImage": "http://store-images.s-microsoft.com/image/apps.52715.13714596773589453.b0e22fc5-f8b4-4b36-b12d-db5d42554c10.e5dbf670-e6a5-411e-8e49-0a6f37882f87",
+        "mediaItemType": "Application",
+        "modernTitleId": "1874191487",
+        "isBundle": false,
+        "achievement": {
+          "currentAchievements": 4,
+          "totalAchievements": 0,
+          "currentGamerscore": 80,
+          "totalGamerscore": 1195,
+          "progressPercentage": 7,
+          "sourceVersion": 2
+        },
+        "stats": {
+          "sourceVersion": 1
+        },
+        "gamePass": {
+          "isGamePass": true
+        },
+        "images": null,
+        "titleHistory": {
+          "lastTimePlayed": "2026-02-05T04:45:48.964871Z",
+          "visible": true,
+          "canHide": false
+        },
+        "titleRecord": null,
+        "detail": null,
+        "friendsWhoPlayed": null,
+        "alternateTitleIds": null,
+        "contentBoards": null,
+        "xboxLiveTier": "Full",
+        "isStreamable": true
+      }
+    },
+    {
+      "name": "Forza Horizon 5",
+      "titleId": "2030093255",
+      "lastPlayed": "2026-02-03T04:53:45.956Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.28758.13734397844529069.202e3fc9-37d6-4853-a58b-fabe504b71e8.4335e940-f927-4be4-af08-8e689a17bd7a",
+      "_raw": {
+        "titleId": "2030093255",
+        "pfn": "Microsoft.624F8B84B80_8wekyb3d8bbwe",
+        "bingId": null,
+        "serviceConfigId": "00000000-0000-0000-0000-00007900c3c7",
+        "windowsPhoneProductId": null,
+        "name": "Forza Horizon 5",
+        "type": "Game",
+        "devices": [
+          "PC",
+          "XboxOne",
+          "XboxSeries"
+        ],
+        "displayImage": "http://store-images.s-microsoft.com/image/apps.28758.13734397844529069.202e3fc9-37d6-4853-a58b-fabe504b71e8.4335e940-f927-4be4-af08-8e689a17bd7a",
+        "mediaItemType": "Application",
+        "modernTitleId": "2030093255",
+        "isBundle": false,
+        "achievement": {
+          "currentAchievements": 30,
+          "totalAchievements": 0,
+          "currentGamerscore": 440,
+          "totalGamerscore": 3000,
+          "progressPercentage": 15,
+          "sourceVersion": 2
+        },
+        "stats": {
+          "sourceVersion": 2
+        },
+        "gamePass": {
+          "isGamePass": true
+        },
+        "images": null,
+        "titleHistory": {
+          "lastTimePlayed": "2026-02-03T04:53:45.9568126Z",
+          "visible": true,
+          "canHide": false
+        },
+        "titleRecord": null,
+        "detail": null,
+        "friendsWhoPlayed": null,
+        "alternateTitleIds": null,
+        "contentBoards": null,
+        "xboxLiveTier": "Full",
+        "isStreamable": true
+      }
+    },
+    {
+      "name": "Control Standard Edition",
+      "titleId": "2107339353",
+      "lastPlayed": "2026-01-31T02:16:44.980Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.12883.14256445537254462.1f6ee6a2-431a-4f85-b644-10f2643bc799.3dbb7730-dfc3-415d-8209-50916a32b4d0",
+      "_raw": {
+        "titleId": "2107339353",
+        "pfn": "505GAMESS.P.A.ControlPCGP_tefn33qh9azfc",
+        "bingId": null,
+        "serviceConfigId": "00000000-0000-0000-0000-00007d9b7259",
+        "windowsPhoneProductId": null,
+        "name": "Control Standard Edition",
+        "type": "Game",
+        "devices": [
+          "PC"
+        ],
+        "displayImage": "http://store-images.s-microsoft.com/image/apps.12883.14256445537254462.1f6ee6a2-431a-4f85-b644-10f2643bc799.3dbb7730-dfc3-415d-8209-50916a32b4d0",
+        "mediaItemType": "Application",
+        "modernTitleId": "2107339353",
+        "isBundle": false,
+        "achievement": {
+          "currentAchievements": 10,
+          "totalAchievements": 0,
+          "currentGamerscore": 150,
+          "totalGamerscore": 1390,
+          "progressPercentage": 11,
+          "sourceVersion": 2
+        },
+        "stats": {
+          "sourceVersion": 2
+        },
+        "gamePass": {
+          "isGamePass": true
+        },
+        "images": null,
+        "titleHistory": {
+          "lastTimePlayed": "2026-01-31T02:16:44.9809362Z",
+          "visible": true,
+          "canHide": false
+        },
+        "titleRecord": null,
+        "detail": null,
+        "friendsWhoPlayed": null,
+        "alternateTitleIds": null,
+        "contentBoards": null,
+        "xboxLiveTier": "Full"
+      }
+    },
+    {
+      "name": "Wreckfest",
+      "titleId": "2091194104",
+      "lastPlayed": "2026-01-26T02:20:33.608Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.11207.13589258961846020.5e95ec4c-44cb-4b39-8217-927890b74c94.85c0251e-bca8-4e59-a1bc-b858f5deafef",
+      "_raw": {
+        "titleId": "2091194104",
+        "pfn": "NordicGames.631082A550AE7_46xc33nm0q0f8",
+        "bingId": null,
+        "serviceConfigId": "00000000-0000-0000-0000-00007ca516f8",
+        "windowsPhoneProductId": null,
+        "name": "Wreckfest",
+        "type": "Game",
+        "devices": [
+          "PC"
+        ],
+        "displayImage": "http://store-images.s-microsoft.com/image/apps.11207.13589258961846020.5e95ec4c-44cb-4b39-8217-927890b74c94.85c0251e-bca8-4e59-a1bc-b858f5deafef",
+        "mediaItemType": "Application",
+        "modernTitleId": "2091194104",
+        "isBundle": false,
+        "achievement": {
+          "currentAchievements": 1,
+          "totalAchievements": 0,
+          "currentGamerscore": 20,
+          "totalGamerscore": 1000,
+          "progressPercentage": 2,
+          "sourceVersion": 2
+        },
+        "stats": {
+          "sourceVersion": 2
+        },
+        "gamePass": {
+          "isGamePass": true
+        },
+        "images": null,
+        "titleHistory": {
+          "lastTimePlayed": "2026-01-26T02:20:33.6089875Z",
+          "visible": true,
+          "canHide": false
+        },
+        "titleRecord": null,
+        "detail": null,
+        "friendsWhoPlayed": null,
+        "alternateTitleIds": null,
+        "contentBoards": null,
+        "xboxLiveTier": "Full"
+      }
+    },
+    {
+      "name": "Microsoft Flight Simulator 2024",
+      "titleId": "1615644955",
+      "lastPlayed": "2026-01-11T04:14:37.480Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.35992.14546949033229931.f4e841b6-7779-427d-8821-1b81b953e7fb.3683c779-ba7f-41c6-9dbf-911b653baa05",
+      "_raw": {
+        "titleId": "1615644955",
+        "pfn": "Microsoft.Limitless_8wekyb3d8bbwe",
+        "bingId": null,
+        "serviceConfigId": "00000000-0000-0000-0000-0000604cc91b",
+        "windowsPhoneProductId": null,
+        "name": "Microsoft Flight Simulator 2024",
+        "type": "Game",
+        "devices": [
+          "PC",
+          "XboxSeries"
+        ],
+        "displayImage": "http://store-images.s-microsoft.com/image/apps.35992.14546949033229931.f4e841b6-7779-427d-8821-1b81b953e7fb.3683c779-ba7f-41c6-9dbf-911b653baa05",
+        "mediaItemType": "Application",
+        "modernTitleId": "1615644955",
+        "isBundle": false,
+        "achievement": {
+          "currentAchievements": 1,
+          "totalAchievements": 0,
+          "currentGamerscore": 10,
+          "totalGamerscore": 1000,
+          "progressPercentage": 1,
+          "sourceVersion": 2
+        },
+        "stats": {
+          "sourceVersion": 1
+        },
+        "gamePass": {
+          "isGamePass": true
+        },
+        "images": null,
+        "titleHistory": {
+          "lastTimePlayed": "2026-01-11T04:14:37.4804818Z",
+          "visible": true,
+          "canHide": false
+        },
+        "titleRecord": null,
+        "detail": null,
+        "friendsWhoPlayed": null,
+        "alternateTitleIds": null,
+        "contentBoards": null,
+        "xboxLiveTier": "Full",
+        "isStreamable": true
+      }
+    },
+    {
+      "name": "Indiana Jones and the Great Circle",
+      "titleId": "1792227428",
+      "lastPlayed": "2025-12-22T03:50:02.234Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.475.14050533476382116.9ce9be62-6690-4c40-8e76-7e5af2a256fb.890d72d8-ceb4-4c0d-9653-e9fbcfeb27c7",
+      "_raw": {
+        "titleId": "1792227428",
+        "pfn": "BethesdaSoftworks.ProjectRelic_3275kfvn8vcwc",
+        "bingId": null,
+        "serviceConfigId": "00000000-0000-0000-0000-00006ad33864",
+        "windowsPhoneProductId": null,
+        "name": "Indiana Jones and the Great Circle",
+        "type": "Game",
+        "devices": [
+          "PC",
+          "XboxSeries"
+        ],
+        "displayImage": "http://store-images.s-microsoft.com/image/apps.475.14050533476382116.9ce9be62-6690-4c40-8e76-7e5af2a256fb.890d72d8-ceb4-4c0d-9653-e9fbcfeb27c7",
+        "mediaItemType": "Application",
+        "modernTitleId": "1792227428",
+        "isBundle": false,
+        "achievement": {
+          "currentAchievements": 4,
+          "totalAchievements": 0,
+          "currentGamerscore": 50,
+          "totalGamerscore": 1250,
+          "progressPercentage": 4,
+          "sourceVersion": 2
+        },
+        "stats": {
+          "sourceVersion": 1
+        },
+        "gamePass": {
+          "isGamePass": true
+        },
+        "images": null,
+        "titleHistory": {
+          "lastTimePlayed": "2025-12-22T03:50:02.2347923Z",
+          "visible": true,
+          "canHide": false
+        },
+        "titleRecord": null,
+        "detail": null,
+        "friendsWhoPlayed": null,
+        "alternateTitleIds": null,
+        "contentBoards": null,
+        "xboxLiveTier": "Full",
+        "isStreamable": true
+      }
+    },
+    {
+      "name": "Clair Obscur: Expedition 33",
+      "titleId": "1769971395",
+      "lastPlayed": "2025-12-21T22:31:24.007Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.13628.14322280443288156.27788484-2760-47f7-be0d-dd693682e016.04a10e3c-848f-424d-a431-2846f34b1a6b",
+      "_raw": {
+        "titleId": "1769971395",
+        "pfn": "KeplerInteractive.Expedition33_ymj30pw7xe604",
+        "bingId": null,
+        "serviceConfigId": "00000000-0000-0000-0000-0000697f9ec3",
+        "windowsPhoneProductId": null,
+        "name": "Clair Obscur: Expedition 33",
+        "type": "Game",
+        "devices": [
+          "PC",
+          "XboxSeries"
+        ],
+        "displayImage": "http://store-images.s-microsoft.com/image/apps.13628.14322280443288156.27788484-2760-47f7-be0d-dd693682e016.04a10e3c-848f-424d-a431-2846f34b1a6b",
+        "mediaItemType": "Application",
+        "modernTitleId": "1769971395",
+        "isBundle": false,
+        "achievement": {
+          "currentAchievements": 4,
+          "totalAchievements": 0,
+          "currentGamerscore": 40,
+          "totalGamerscore": 1000,
+          "progressPercentage": 4,
+          "sourceVersion": 2
+        },
+        "stats": {
+          "sourceVersion": 1
+        },
+        "gamePass": {
+          "isGamePass": true
+        },
+        "images": null,
+        "titleHistory": {
+          "lastTimePlayed": "2025-12-21T22:31:24.0070642Z",
+          "visible": true,
+          "canHide": false
+        },
+        "titleRecord": null,
+        "detail": null,
+        "friendsWhoPlayed": null,
+        "alternateTitleIds": null,
+        "contentBoards": null,
+        "xboxLiveTier": "Full",
+        "isStreamable": true
+      }
+    },
+    {
+      "name": "Call of Duty®",
+      "titleId": "2001700854",
+      "lastPlayed": "2025-11-19T05:59:09.216Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.54836.13966330883349940.11992bbd-8e09-48bd-a61d-26246908b0e0.8eef2f31-8299-430d-9b7f-e28f47b46c38",
+      "_raw": {
+        "titleId": "2001700854",
+        "pfn": "38985CA0.COREBase_5bkah9njm3e9g",
+        "bingId": null,
+        "serviceConfigId": "00000000-0000-0000-0000-0000774f87f6",
+        "windowsPhoneProductId": null,
+        "name": "Call of Duty®",
+        "type": "Game",
+        "devices": [
+          "PC",
+          "XboxOne",
+          "XboxSeries"
+        ],
+        "displayImage": "http://store-images.s-microsoft.com/image/apps.54836.13966330883349940.11992bbd-8e09-48bd-a61d-26246908b0e0.8eef2f31-8299-430d-9b7f-e28f47b46c38",
+        "mediaItemType": "Application",
+        "modernTitleId": "2001700854",
+        "isBundle": false,
+        "achievement": {
+          "currentAchievements": 2,
+          "totalAchievements": 0,
+          "currentGamerscore": 20,
+          "totalGamerscore": 4000,
+          "progressPercentage": 0,
+          "sourceVersion": 2
+        },
+        "stats": {
+          "sourceVersion": 2
+        },
+        "gamePass": {
+          "isGamePass": true
+        },
+        "images": null,
+        "titleHistory": {
+          "lastTimePlayed": "2025-11-19T05:59:09.2167551Z",
+          "visible": true,
+          "canHide": false
+        },
+        "titleRecord": null,
+        "detail": null,
+        "friendsWhoPlayed": null,
+        "alternateTitleIds": null,
+        "contentBoards": null,
+        "xboxLiveTier": "Full",
+        "isStreamable": true
+      }
+    },
+    {
+      "name": "NINJA GAIDEN 4",
+      "titleId": "2008623143",
+      "lastPlayed": "2025-11-12T21:25:42.618Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.2549.14524843898704391.85a1bf00-ba10-44d9-90b4-d20f9cb73fb6.f4e125f5-8765-4687-842d-a57f54b03fec",
+      "_raw": {
+        "titleId": "2008623143",
+        "pfn": "Microsoft.TOROretail_8wekyb3d8bbwe",
+        "bingId": null,
+        "serviceConfigId": "00000000-0000-0000-0000-000077b92827",
+        "windowsPhoneProductId": null,
+        "name": "NINJA GAIDEN 4",
+        "type": "Game",
+        "devices": [
+          "PC",
+          "XboxSeries"
+        ],
+        "displayImage": "http://store-images.s-microsoft.com/image/apps.2549.14524843898704391.85a1bf00-ba10-44d9-90b4-d20f9cb73fb6.f4e125f5-8765-4687-842d-a57f54b03fec",
+        "mediaItemType": "Application",
+        "modernTitleId": "2008623143",
+        "isBundle": false,
+        "achievement": {
+          "currentAchievements": 21,
+          "totalAchievements": 0,
+          "currentGamerscore": 380,
+          "totalGamerscore": 1000,
+          "progressPercentage": 38,
+          "sourceVersion": 2
+        },
+        "stats": {
+          "sourceVersion": 2
+        },
+        "gamePass": {
+          "isGamePass": true
+        },
+        "images": null,
+        "titleHistory": {
+          "lastTimePlayed": "2025-11-12T21:25:42.6187988Z",
+          "visible": true,
+          "canHide": false
+        },
+        "titleRecord": null,
+        "detail": null,
+        "friendsWhoPlayed": null,
+        "alternateTitleIds": null,
+        "contentBoards": null,
+        "xboxLiveTier": "Full",
+        "isStreamable": true
+      }
+    },
+    {
+      "name": "DEATHLOOP",
+      "titleId": "1690468494",
+      "lastPlayed": "2025-08-19T01:51:03.346Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.5858.14634955238674857.649b7ff9-0dfc-4951-9b65-c5d815215da6.90208516-ba3b-47a9-a130-ef94cf860f5b",
+      "_raw": {
+        "titleId": "1690468494",
+        "pfn": "BethesdaSoftworks.ProjectPrism_3275kfvn8vcwc",
+        "bingId": null,
+        "serviceConfigId": "00000000-0000-0000-0000-000064c2808e",
+        "windowsPhoneProductId": null,
+        "name": "DEATHLOOP",
+        "type": "Game",
+        "devices": [
+          "PC",
+          "XboxSeries"
+        ],
+        "displayImage": "http://store-images.s-microsoft.com/image/apps.5858.14634955238674857.649b7ff9-0dfc-4951-9b65-c5d815215da6.90208516-ba3b-47a9-a130-ef94cf860f5b",
+        "mediaItemType": "Application",
+        "modernTitleId": "1690468494",
+        "isBundle": false,
+        "achievement": {
+          "currentAchievements": 1,
+          "totalAchievements": 0,
+          "currentGamerscore": 15,
+          "totalGamerscore": 1000,
+          "progressPercentage": 2,
+          "sourceVersion": 2
+        },
+        "stats": {
+          "sourceVersion": 1
+        },
+        "gamePass": {
+          "isGamePass": true
+        },
+        "images": null,
+        "titleHistory": {
+          "lastTimePlayed": "2025-08-19T01:51:03.3465485Z",
+          "visible": true,
+          "canHide": false
+        },
+        "titleRecord": null,
+        "detail": null,
+        "friendsWhoPlayed": null,
+        "alternateTitleIds": null,
+        "contentBoards": null,
+        "xboxLiveTier": "Full",
+        "isStreamable": true
+      }
+    },
+    {
+      "name": "Tony Hawk's™ Pro Skater™ 1 + 2",
+      "titleId": "1767703473",
+      "lastPlayed": "2024-12-09T03:54:20.111Z",
+      "platform": "unknown",
+      "image": "http://store-images.s-microsoft.com/image/apps.39248.14040146836656499.9b5818b0-bdde-463b-9455-4ef54a4049be.a8c25de1-14de-4c32-b3af-875108b36520",
+      "_raw": {
+        "titleId": "1767703473",
+        "pfn": "38985CA0.AlcatrazX1_5bkah9njm3e9g",
+        "bingId": null,
+        "serviceConfigId": "00000000-0000-0000-0000-0000695d03b1",
+        "windowsPhoneProductId": null,
+        "name": "Tony Hawk's™ Pro Skater™ 1 + 2",
+        "type": "Game",
+        "devices": [
+          "XboxOne",
+          "XboxSeries"
+        ],
+        "displayImage": "http://store-images.s-microsoft.com/image/apps.39248.14040146836656499.9b5818b0-bdde-463b-9455-4ef54a4049be.a8c25de1-14de-4c32-b3af-875108b36520",
+        "mediaItemType": "Application",
+        "modernTitleId": "1767703473",
+        "isBundle": false,
+        "achievement": {
+          "currentAchievements": 0,
+          "totalAchievements": 0,
+          "currentGamerscore": 0,
+          "totalGamerscore": 1000,
+          "progressPercentage": 0,
+          "sourceVersion": 2
+        },
+        "stats": {
+          "sourceVersion": 1
+        },
+        "gamePass": {
+          "isGamePass": false
+        },
+        "images": null,
+        "titleHistory": {
+          "lastTimePlayed": "2024-12-09T03:54:20.1116627Z",
+          "visible": true,
+          "canHide": true
+        },
+        "titleRecord": null,
+        "detail": null,
+        "friendsWhoPlayed": null,
+        "alternateTitleIds": null,
+        "contentBoards": null,
+        "xboxLiveTier": "Full"
+      }
+    }
+  ]
+}

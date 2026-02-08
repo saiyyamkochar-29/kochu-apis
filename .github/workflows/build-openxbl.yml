@@ -1,0 +1,47 @@
+name: Build OpenXBL
+
+on:
+  schedule:
+    - cron: '30 3 1,15 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build TypeScript
+        run: npm run build
+
+      - name: Generate OpenXBL games
+        env:
+          OPENXBL_API_KEY: ${{ secrets.OPENXBL_API_KEY }}
+          XBOX_XUID: ${{ secrets.XBOX_XUID }}
+        run: node dist/openxbl/build-openxbl.js
+
+      - name: Commit and push if changed
+        run: |
+          git add api/games.json raw-data/openxbl-raw.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "🎮 Recently played xbox/pc games updated via OpenXBL"
+          git pull --rebase
+          git push

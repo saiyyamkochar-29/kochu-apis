@@ -1,0 +1,76 @@
+{
+  "updatedAt": "2026-02-08T10:15:41.119Z",
+  "source": "openxbl",
+  "recentGames": [
+    {
+      "name": "High On Life",
+      "titleId": "1874191487",
+      "lastPlayed": "2026-02-05T04:45:48.964Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.52715.13714596773589453.b0e22fc5-f8b4-4b36-b12d-db5d42554c10.e5dbf670-e6a5-411e-8e49-0a6f37882f87"
+    },
+    {
+      "name": "Forza Horizon 5",
+      "titleId": "2030093255",
+      "lastPlayed": "2026-02-03T04:53:45.956Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.28758.13734397844529069.202e3fc9-37d6-4853-a58b-fabe504b71e8.4335e940-f927-4be4-af08-8e689a17bd7a"
+    },
+    {
+      "name": "Control Standard Edition",
+      "titleId": "2107339353",
+      "lastPlayed": "2026-01-31T02:16:44.980Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.12883.14256445537254462.1f6ee6a2-431a-4f85-b644-10f2643bc799.3dbb7730-dfc3-415d-8209-50916a32b4d0"
+    },
+    {
+      "name": "Wreckfest",
+      "titleId": "2091194104",
+      "lastPlayed": "2026-01-26T02:20:33.608Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.11207.13589258961846020.5e95ec4c-44cb-4b39-8217-927890b74c94.85c0251e-bca8-4e59-a1bc-b858f5deafef"
+    },
+    {
+      "name": "Microsoft Flight Simulator 2024",
+      "titleId": "1615644955",
+      "lastPlayed": "2026-01-11T04:14:37.480Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.35992.14546949033229931.f4e841b6-7779-427d-8821-1b81b953e7fb.3683c779-ba7f-41c6-9dbf-911b653baa05"
+    },
+    {
+      "name": "Indiana Jones and the Great Circle",
+      "titleId": "1792227428",
+      "lastPlayed": "2025-12-22T03:50:02.234Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.475.14050533476382116.9ce9be62-6690-4c40-8e76-7e5af2a256fb.890d72d8-ceb4-4c0d-9653-e9fbcfeb27c7"
+    },
+    {
+      "name": "Clair Obscur: Expedition 33",
+      "titleId": "1769971395",
+      "lastPlayed": "2025-12-21T22:31:24.007Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.13628.14322280443288156.27788484-2760-47f7-be0d-dd693682e016.04a10e3c-848f-424d-a431-2846f34b1a6b"
+    },
+    {
+      "name": "Call of Duty®",
+      "titleId": "2001700854",
+      "lastPlayed": "2025-11-19T05:59:09.216Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.54836.13966330883349940.11992bbd-8e09-48bd-a61d-26246908b0e0.8eef2f31-8299-430d-9b7f-e28f47b46c38"
+    },
+    {
+      "name": "NINJA GAIDEN 4",
+      "titleId": "2008623143",
+      "lastPlayed": "2025-11-12T21:25:42.618Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.2549.14524843898704391.85a1bf00-ba10-44d9-90b4-d20f9cb73fb6.f4e125f5-8765-4687-842d-a57f54b03fec"
+    },
+    {
+      "name": "DEATHLOOP",
+      "titleId": "1690468494",
+      "lastPlayed": "2025-08-19T01:51:03.346Z",
+      "platform": "pc",
+      "image": "http://store-images.s-microsoft.com/image/apps.5858.14634955238674857.649b7ff9-0dfc-4951-9b65-c5d815215da6.90208516-ba3b-47a9-a130-ef94cf860f5b"
+    }
+  ]
+}
