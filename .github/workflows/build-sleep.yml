@@ -41,6 +41,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "💤 sleep.json updated via Saiyyam's iPhone and Github action"
+          git commit -m "💤 sleep.json updated via Saiyyam's iPhone"
           git pull --rebase
           git push
