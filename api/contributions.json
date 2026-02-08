@@ -1,0 +1,45 @@
+{
+  "updatedAt": "2026-02-08T08:56:40.826Z",
+  "timezone": "America/New_York",
+  "weeks": [
+    {
+      "weekStart": "2026-01-26",
+      "weekEnd": "2026-02-01",
+      "totalContributions": 13,
+      "days": [
+        {
+          "date": "2026-01-26",
+          "count": 2
+        },
+        {
+          "date": "2026-01-27",
+          "count": 2
+        },
+        {
+          "date": "2026-01-28",
+          "count": 2
+        },
+        {
+          "date": "2026-01-29",
+          "count": 2
+        },
+        {
+          "date": "2026-01-30",
+          "count": 1
+        },
+        {
+          "date": "2026-01-31",
+          "count": 2
+        },
+        {
+          "date": "2026-02-01",
+          "count": 0
+        },
+        {
+          "date": "2026-02-02",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}
