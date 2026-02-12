@@ -2,7 +2,7 @@
   "topArtists": [
     {
       "name": "Calmly",
-      "playcount": 224,
+      "playcount": 205,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
@@ -32,11 +32,6 @@
     },
     {
       "name": "Magdalena Bay",
-      "playcount": 4,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "Neil Frances",
       "playcount": 4,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
@@ -72,6 +67,11 @@
     },
     {
       "name": "Elderbrook",
+      "playcount": 3,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+    },
+    {
+      "name": "Jasper Van Dijk",
       "playcount": 3,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
