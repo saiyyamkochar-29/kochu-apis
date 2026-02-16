@@ -2,7 +2,10 @@
   "type": "module",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "build:places": "npm run build && node dist/places/build-places-from-db.js"
+    "build:places": "npm run build && node dist/places/build-places-from-db.js",
+    "whatpulse:fetch": "node dist/whatpulse/fetch-raw.js",
+    "whatpulse:build": "node dist/whatpulse/build-whatpulse.js",
+    "whatpulse:run": "node dist/whatpulse/run-whatpulse.js"
   },
   "dependencies": {
     "tz-lookup": "^6.1.25",
