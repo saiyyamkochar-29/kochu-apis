@@ -1,0 +1,74 @@
+{
+  "updatedAt": "2026-02-16T07:49:14.215Z",
+  "baseUrl": "https://saiyyamkochar-29.github.io/kochu-apis",
+  "summary": {
+    "total": 9,
+    "ok": 9,
+    "error": 0
+  },
+  "endpoints": [
+    {
+      "name": "contributions",
+      "path": "/api/contributions.json",
+      "url": "https://saiyyamkochar-29.github.io/kochu-apis/api/contributions.json",
+      "health": "ok",
+      "lastUpdated": "2026-02-16T05:10:35.366Z"
+    },
+    {
+      "name": "games",
+      "path": "/api/games.json",
+      "url": "https://saiyyamkochar-29.github.io/kochu-apis/api/games.json",
+      "health": "ok",
+      "lastUpdated": "2026-02-16T01:50:55.996Z"
+    },
+    {
+      "name": "location",
+      "path": "/api/location.json",
+      "url": "https://saiyyamkochar-29.github.io/kochu-apis/api/location.json",
+      "health": "ok",
+      "lastUpdated": "Feb 15, 2026 at 7:00 AM"
+    },
+    {
+      "name": "music",
+      "path": "/api/music.json",
+      "url": "https://saiyyamkochar-29.github.io/kochu-apis/api/music.json",
+      "health": "ok",
+      "lastUpdated": null
+    },
+    {
+      "name": "places",
+      "path": "/api/places.json",
+      "url": "https://saiyyamkochar-29.github.io/kochu-apis/api/places.json",
+      "health": "ok",
+      "lastUpdated": null
+    },
+    {
+      "name": "sleep",
+      "path": "/api/sleep.json",
+      "url": "https://saiyyamkochar-29.github.io/kochu-apis/api/sleep.json",
+      "health": "ok",
+      "lastUpdated": "2026-02-08T17:59:37.167Z"
+    },
+    {
+      "name": "steps",
+      "path": "/api/steps.json",
+      "url": "https://saiyyamkochar-29.github.io/kochu-apis/api/steps.json",
+      "health": "ok",
+      "lastUpdated": "2026-02-15T23:59:03-05:00"
+    },
+    {
+      "name": "todoist",
+      "path": "/api/todoist.json",
+      "url": "https://saiyyamkochar-29.github.io/kochu-apis/api/todoist.json",
+      "health": "ok",
+      "lastUpdated": "2026-02-16T06:54:20.597Z"
+    },
+    {
+      "name": "whatpulse",
+      "path": "/api/whatpulse.json",
+      "url": "https://saiyyamkochar-29.github.io/kochu-apis/api/whatpulse.json",
+      "health": "ok",
+      "lastUpdated": "2026-02-16T06:12:56.470Z"
+    }
+  ]
+}

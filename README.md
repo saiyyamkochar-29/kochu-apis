@@ -8,6 +8,26 @@ A fully automated digital observatory of my existence. Because if it's not in JS
 
 **Live API:** `https://saiyyamkochar-29.github.io/kochu-apis/api.json`
 
+<!-- API_STATUS_START -->
+### API Status
+- Index: https://saiyyamkochar-29.github.io/kochu-apis/api.json
+- Last updated: 2026-02-16T07:49:14.215Z
+- Health: 9/9 OK, 0 errors
+
+Endpoints:
+- [contributions](/kochu-apis/api/contributions.json) • ok • 2026-02-16T05:10:35.366Z
+- [games](/kochu-apis/api/games.json) • ok • 2026-02-16T01:50:55.996Z
+- [location](/kochu-apis/api/location.json) • ok • Feb 15, 2026 at 7:00 AM
+- [music](/kochu-apis/api/music.json) • ok • null
+- [places](/kochu-apis/api/places.json) • ok • null
+- [sleep](/kochu-apis/api/sleep.json) • ok • 2026-02-08T17:59:37.167Z
+- [steps](/kochu-apis/api/steps.json) • ok • 2026-02-15T23:59:03-05:00
+- [todoist](/kochu-apis/api/todoist.json) • ok • 2026-02-16T06:54:20.597Z
+- [whatpulse](/kochu-apis/api/whatpulse.json) • ok • 2026-02-16T06:12:56.470Z
+
+<!-- API_STATUS_END -->
+
+
 ## 🤔 What is this?
 
 You know how people say "pics or it didn't happen"? Well, I took it further: **data or it didn't happen**.
