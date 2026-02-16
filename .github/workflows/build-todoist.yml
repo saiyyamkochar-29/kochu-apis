@@ -1,0 +1,46 @@
+name: Build Todoist
+
+on:
+  schedule:
+    - cron: '0 5 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build TypeScript
+        run: npm run build
+
+      - name: Generate api/todoist.json
+        env:
+          TODOIST_API_TOKEN: ${{ secrets.TODOIST_API_TOKEN }}
+        run: node dist/todoist/build-todoist.js
+
+      - name: Commit and push if changed
+        run: |
+          git add api/todoist.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "Local Pulse Bot"
+          git config user.email "local-pulse-bot@users.noreply.github.com"
+          git commit -m "chore: update todoist"
+          git pull --rebase
+          git push

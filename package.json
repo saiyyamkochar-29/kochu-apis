@@ -5,7 +5,8 @@
     "build:places": "npm run build && node dist/places/build-places-from-db.js",
     "whatpulse:fetch": "node dist/whatpulse/fetch-raw.js",
     "whatpulse:build": "node dist/whatpulse/build-whatpulse.js",
-    "whatpulse:run": "node dist/whatpulse/run-whatpulse.js"
+    "whatpulse:run": "node dist/whatpulse/run-whatpulse.js",
+    "todoist:build": "node dist/todoist/build-todoist.js"
   },
   "dependencies": {
     "tz-lookup": "^6.1.25",
