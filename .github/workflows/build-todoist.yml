@@ -39,8 +39,8 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git config user.name "Local Pulse Bot"
-          git config user.email "local-pulse-bot@users.noreply.github.com"
-          git commit -m "chore: update todoist"
+          git config user.name "Kochu Task Bot"
+          git config user.email "kochu-task-bot@users.noreply.github.com"
+          git commit -m "📝 Completed tasks updated via Todoist API"
           git pull --rebase
           git push

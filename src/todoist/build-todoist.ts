@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const ENDPOINT = 'https://api.todoist.com/sync/v9/completed/get_stats';
+const ENDPOINT = 'https://api.todoist.com/api/v1/tasks/completed/stats';
 
 function safeSnippet(text: string, maxLen: number = 200): string {
   const s = String(text).trim();
@@ -43,12 +43,12 @@ function sumCompletedFromItems(items: unknown): number {
   return sum;
 }
 
-/** Get week range string from a week item (date_range, week_range, range, or similar). */
-function getWeekRange(weekItem: Record<string, unknown>): string | null {
-  const range =
-    weekItem.date_range ?? weekItem.week_range ?? weekItem.range ?? weekItem.week ?? weekItem.dates;
-  if (typeof range === 'string') return range;
-  return null;
+/** Week range string from a week item. API v1 uses from/to. */
+function getWeekRange(weekItem: Record<string, unknown>): string {
+  const from = weekItem.from;
+  const to = weekItem.to;
+  if (typeof from === 'string' && typeof to === 'string') return `${from.trim()}/${to.trim()}`;
+  return '';
 }
 
 async function main(): Promise<void> {
@@ -88,8 +88,7 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
-  const stats = data && typeof data === 'object' && 'stats' in data ? (data as { stats?: unknown }).stats : data;
-  const weekItems = stats && typeof stats === 'object' && 'week_items' in stats ? (stats as { week_items?: unknown }).week_items : null;
+  const weekItems = data && typeof data === 'object' && 'week_items' in data ? (data as { week_items?: unknown }).week_items : null;
 
   if (!Array.isArray(weekItems) || weekItems.length === 0) {
     console.error('Todoist response missing or empty week_items.');
@@ -101,20 +100,21 @@ async function main(): Promise<void> {
   for (const w of weekItems) {
     const item = w && typeof w === 'object' ? (w as Record<string, unknown>) : null;
     if (!item) continue;
-    const range = getWeekRange(item);
-    if (range && dateInRange(today, range)) {
+    const from = item.from as string | undefined;
+    const to = item.to as string | undefined;
+    if (typeof from === 'string' && typeof to === 'string' && dateInRange(today, `${from}/${to}`)) {
       chosen = item;
       break;
     }
   }
 
-  const weekRange = getWeekRange(chosen) ?? '';
-  const items = chosen.items ?? chosen.item ?? chosen.projects ?? [];
-  const completedThisWeek = sumCompletedFromItems(items);
+  const weekRange = getWeekRange(chosen);
+  const totalFromItem = typeof chosen.total_completed === 'number' && Number.isFinite(chosen.total_completed) ? chosen.total_completed : null;
+  const completedThisWeek = totalFromItem ?? sumCompletedFromItems(chosen.items ?? chosen.item ?? chosen.projects ?? []);
 
   const output = {
     updatedAt: new Date().toISOString(),
-    source: 'todoist-sync-v9',
+    source: 'todoist-api-v1',
     weekRange,
     completedThisWeek
   };
