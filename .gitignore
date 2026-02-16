@@ -14,6 +14,7 @@ yarn-error.log*
 .env
 .env.local
 
+
 # IDE
 .vscode/
 .idea/
@@ -27,3 +28,4 @@ Thumbs.db
 
 # Temporary build inputs (fetched by GitHub Actions)
 data/places/registered.json
+src/whatpulse/run-whatpulse-automation.bat
