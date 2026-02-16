@@ -61,9 +61,9 @@ async function main(): Promise<void> {
   }
 
   // 5) Commit + push (NO pull after commit)
-  run('git config user.name "Local Pulse Bot"', projectRoot);
+  run('git config user.name "Kochu Pulse Bot"', projectRoot);
   run('git config user.email "local-pulse-bot@users.noreply.github.com"', projectRoot);
-  run('git commit -m "📈 WhatPulse stats updated via Local Pulse Bot"', projectRoot);
+  run('git commit -m "📈 WhatPulse stats updated via Kochu Pulse Bot"', projectRoot);
   
 
   run('git push', projectRoot);
