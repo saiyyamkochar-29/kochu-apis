@@ -4,8 +4,6 @@
 
 A fully automated digital observatory of my existence. Because if it's not in JSON, did it even happen?
 
-[![Life Data CI](https://github.com/saiyyamkochar-29/kochu-apis/actions/workflows/update-data.yml/badge.svg)](https://github.com/saiyyamkochar-29/kochu-apis/actions)
-
 **Live API:** `https://saiyyamkochar-29.github.io/kochu-apis/api.json`
 
 <!-- API_STATUS_START -->
