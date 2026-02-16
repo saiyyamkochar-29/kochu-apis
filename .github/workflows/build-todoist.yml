@@ -2,7 +2,7 @@ name: Build Todoist
 
 on:
   schedule:
-    - cron: '0 5 * * 1'
+    - cron: '59 4 * * 1'
   workflow_dispatch:
 
 permissions:
