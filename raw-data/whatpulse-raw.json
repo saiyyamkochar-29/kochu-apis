@@ -1,0 +1,61 @@
+{
+  "_fetchedAt": "2026-02-16T05:06:16.748Z",
+  "_source": "whatpulse-client-api",
+  "data": {
+    "account-totals": {
+      "clicks": "0",
+      "clicks_formatted": "0",
+      "distance_formatted": "None",
+      "distance_miles": "0",
+      "download": "0",
+      "download_formatted": "0.00MB",
+      "keys": "0",
+      "keys_formatted": "0",
+      "ranks": {
+        "rank_clicks": "0",
+        "rank_clicks_formatted": "0th",
+        "rank_distance": "0",
+        "rank_distance_formatted": "0th",
+        "rank_download": "0",
+        "rank_download_formatted": "0th",
+        "rank_keys": "0",
+        "rank_keys_formatted": "0th",
+        "rank_scrolls": "0",
+        "rank_scrolls_formatted": "0th",
+        "rank_upload": "0",
+        "rank_upload_formatted": "0th",
+        "rank_uptime": "0",
+        "rank_uptime_formatted": "0th"
+      },
+      "scrolls": "0",
+      "scrolls_formatted": "0",
+      "upload": "0",
+      "upload_formatted": "0.00MB",
+      "uptime": "0",
+      "uptime_formatted": "<1 min"
+    },
+    "profiles": [],
+    "realtime": {
+      "clicks": "0.14",
+      "download": "0.00B/s",
+      "keys": "0.70",
+      "upload": "0.00B/s"
+    },
+    "unpulsed": {
+      "clicks": 152,
+      "clicks_formatted": "152",
+      "distance_formatted": "30m",
+      "distance_inches": 1201,
+      "download": 0,
+      "download_formatted": "0.00B",
+      "keys": 561,
+      "keys_formatted": "561",
+      "scrolls": 75,
+      "scrolls_formatted": "75",
+      "upload": 0,
+      "upload_formatted": "0.00B",
+      "uptime": 1022,
+      "uptime_formatted": "17m"
+    }
+  }
+}

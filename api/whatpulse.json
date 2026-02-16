@@ -1,0 +1,34 @@
+{
+  "updatedAt": "2026-02-16T05:06:16.753Z",
+  "source": "whatpulse-client-api",
+  "totals": {
+    "keys": 561,
+    "clicks": 152,
+    "scrolls": 75,
+    "uptimeSeconds": 1022
+  },
+  "unpulsed": {
+    "keys": 561,
+    "clicks": 152,
+    "scrolls": 75,
+    "uptimeSeconds": 1022
+  },
+  "debug": {
+    "topLevelKeys": [
+      "account-totals",
+      "profiles",
+      "realtime",
+      "unpulsed"
+    ],
+    "detectedPaths": {
+      "totals.keys": "unpulsed/keys",
+      "totals.clicks": "unpulsed/clicks",
+      "totals.scrolls": "unpulsed/scrolls",
+      "totals.uptimeSeconds": "unpulsed/uptime",
+      "unpulsed.keys": "unpulsed/keys",
+      "unpulsed.clicks": "unpulsed/clicks",
+      "unpulsed.scrolls": "unpulsed/scrolls",
+      "unpulsed.uptimeSeconds": "unpulsed/uptime"
+    }
+  }
+}
