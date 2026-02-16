@@ -1,0 +1,48 @@
+name: Build API Index
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "api/*.json"
+      - "src/build-api-index.ts"
+      - "README.md"
+      - "!api/index.json"
+      - "!api.json"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build TypeScript
+        run: npm run build
+
+      - name: Build api.json index + README status
+        run: npm run api:index
+
+      - name: Commit and push if changed
+        run: |
+          git add api.json api/index.json README.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "Kochu API Index Bot"
+          git config user.email "kochu-api-index-bot@users.noreply.github.com"
+          git commit -m "📦 API Index updated"
+          git push
