@@ -3,6 +3,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { main as fetchRawMain } from './fetch-raw.js';
 import { main as buildWhatPulseMain } from './build-whatpulse.js';
+import { main as buildWeeklyMain } from './build-weekly.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -49,9 +50,13 @@ async function main(): Promise<void> {
   // 2) Generate outputs
   await fetchRawMain();
   await buildWhatPulseMain();
+  await buildWeeklyMain();
 
   // 3) Stage only the files we care about
-  run('git add raw-data/whatpulse-raw.json api/whatpulse.json', projectRoot);
+  run(
+    'git add raw-data/whatpulse-raw.json api/whatpulse.json raw-data/whatpulse-weekly-snapshots.json api/whatpulse-weekly.json',
+    projectRoot
+  );
 
   // 4) If nothing staged, exit
   const noStagedChanges = tryRun('git diff --staged --quiet', projectRoot);

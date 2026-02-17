@@ -6,6 +6,7 @@
     "whatpulse:fetch": "node dist/whatpulse/fetch-raw.js",
     "whatpulse:build": "node dist/whatpulse/build-whatpulse.js",
     "whatpulse:run": "node dist/whatpulse/run-whatpulse.js",
+    "whatpulse:weekly": "node dist/whatpulse/build-weekly.js",
     "todoist:build": "node dist/todoist/build-todoist.js",
     "api:index": "node dist/index/build-api-index.js"
   },
