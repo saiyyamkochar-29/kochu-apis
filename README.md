@@ -9,7 +9,7 @@ A fully automated digital observatory of my existence. Because if it's not in JS
 <!-- API_STATUS_START -->
 ### API Status
 - Index: https://saiyyamkochar-29.github.io/kochu-apis/api.json
-- Last updated: 2026-02-16T12:00:17.074Z
+- Last updated: 2026-02-17T00:30:58.619Z
 - Health: 9/9 OK, 0 errors
 
 Endpoints:
@@ -21,7 +21,7 @@ Endpoints:
 - [sleep](/kochu-apis/api/sleep.json) • ok • 2026-02-08T17:59:37.167Z
 - [steps](/kochu-apis/api/steps.json) • ok • 2026-02-15T23:59:03-05:00
 - [todoist](/kochu-apis/api/todoist.json) • ok • 2026-02-16T06:54:20.597Z
-- [whatpulse](/kochu-apis/api/whatpulse.json) • ok • 2026-02-16T07:57:28.069Z
+- [whatpulse](/kochu-apis/api/whatpulse.json) • ok • 2026-02-17T00:30:45.195Z
 
 <!-- API_STATUS_END -->
 
