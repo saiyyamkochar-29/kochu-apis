@@ -1,5 +1,5 @@
 {
-  "_fetchedAt": "2026-02-17T00:30:45.190Z",
+  "_fetchedAt": "2026-02-17T01:06:52.818Z",
   "_source": "whatpulse-client-api",
   "data": {
     "account-totals": {
@@ -42,20 +42,20 @@
       "upload": "0.00B/s"
     },
     "unpulsed": {
-      "clicks": 1682,
-      "clicks_formatted": "1,682",
-      "distance_formatted": "393m",
-      "distance_inches": 15484,
+      "clicks": 1847,
+      "clicks_formatted": "1,847",
+      "distance_formatted": "430m",
+      "distance_inches": 16955,
       "download": 0,
       "download_formatted": "0.00B",
-      "keys": 6432,
-      "keys_formatted": "6,432",
-      "scrolls": 1431,
-      "scrolls_formatted": "1,431",
+      "keys": 7234,
+      "keys_formatted": "7,234",
+      "scrolls": 1553,
+      "scrolls_formatted": "1,553",
       "upload": 0,
       "upload_formatted": "0.00B",
-      "uptime": 11668,
-      "uptime_formatted": "3h, 14m"
+      "uptime": 13764,
+      "uptime_formatted": "3h, 49m"
     }
   }
 }

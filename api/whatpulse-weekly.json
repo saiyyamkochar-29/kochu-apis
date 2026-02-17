@@ -1,8 +1,13 @@
 {
-  "updatedAt": "2026-02-17T01:05:56.953Z",
+  "updatedAt": "2026-02-17T01:06:52.823Z",
   "source": "whatpulse-client-api",
   "window": "weekly",
-  "range": null,
-  "counters": null,
-  "note": "Not enough history yet. Run again next week to compute deltas."
+  "range": "2026-02-17T01:05:56.953Z/2026-02-17T01:06:52.823Z",
+  "counters": {
+    "keys": 802,
+    "clicks": 165,
+    "scrolls": 122,
+    "uptimeSeconds": 2096
+  },
+  "note": null
 }
