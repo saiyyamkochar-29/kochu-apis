@@ -28,5 +28,15 @@
       "scrolls": 8176,
       "uptimeSeconds": 109143
     }
+  },
+  {
+    "capturedAt": "2026-03-03T02:37:14.383Z",
+    "source": "whatpulse-client-api",
+    "counters": {
+      "keys": 55547,
+      "clicks": 30251,
+      "scrolls": 11975,
+      "uptimeSeconds": 185724
+    }
   }
 ]
