@@ -4,7 +4,7 @@
     "region": "Pennsylvania",
     "country": "United States"
   },
-  "count": 24,
+  "count": 25,
   "places": [
     {
       "region": "Delhi",
@@ -65,6 +65,12 @@
       "country": "United Arab Emirates",
       "firstCity": "Dubai",
       "key": "dubai|united arab emirates"
+    },
+    {
+      "region": "Arizona",
+      "country": "United States",
+      "firstCity": "Tempe",
+      "key": "arizona|united states"
     },
     {
       "region": "California",
