@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-31T11:00:16.910Z",
+  "updatedAt": "2026-04-01T01:18:08.443Z",
   "baseUrl": "https://saiyyamkochar-29.github.io/kochu-apis",
   "summary": {
     "total": 10,
@@ -68,14 +68,14 @@
       "path": "/api/whatpulse.json",
       "url": "https://saiyyamkochar-29.github.io/kochu-apis/api/whatpulse.json",
       "health": "ok",
-      "lastUpdated": "2026-03-03T02:37:14.382Z"
+      "lastUpdated": "2026-04-01T01:18:05.238Z"
     },
     {
       "name": "whatpulse-weekly",
       "path": "/api/whatpulse-weekly.json",
       "url": "https://saiyyamkochar-29.github.io/kochu-apis/api/whatpulse-weekly.json",
       "health": "ok",
-      "lastUpdated": "2026-03-03T02:37:14.383Z"
+      "lastUpdated": "2026-04-01T01:18:05.240Z"
     }
   ]
 }
