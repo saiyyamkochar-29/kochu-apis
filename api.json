@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-10T11:00:15.821Z",
+  "updatedAt": "2026-04-11T03:15:19.219Z",
   "baseUrl": "https://saiyyamkochar-29.github.io/kochu-apis",
   "summary": {
     "total": 10,
@@ -19,7 +19,7 @@
       "path": "/api/games.json",
       "url": "https://saiyyamkochar-29.github.io/kochu-apis/api/games.json",
       "health": "ok",
-      "lastUpdated": "2026-04-10T02:06:40.893Z"
+      "lastUpdated": "2026-04-11T01:55:27.821Z"
     },
     {
       "name": "location",
@@ -54,7 +54,7 @@
       "path": "/api/steps.json",
       "url": "https://saiyyamkochar-29.github.io/kochu-apis/api/steps.json",
       "health": "ok",
-      "lastUpdated": "2026-04-09T23:15:02-04:00"
+      "lastUpdated": "2026-04-10T23:15:04-04:00"
     },
     {
       "name": "todoist",
