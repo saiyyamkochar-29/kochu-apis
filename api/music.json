@@ -2,7 +2,7 @@
   "topArtists": [
     {
       "name": "Calmly",
-      "playcount": 627,
+      "playcount": 628,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
@@ -13,6 +13,16 @@
     {
       "name": "Metro Boomin",
       "playcount": 10,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+    },
+    {
+      "name": "21 Savage",
+      "playcount": 7,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+    },
+    {
+      "name": "Future",
+      "playcount": 7,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
@@ -62,16 +72,6 @@
     },
     {
       "name": "Axel Boman",
-      "playcount": 1,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "B Praak",
-      "playcount": 1,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "BAGI MUNDA",
       "playcount": 1,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
