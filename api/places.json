@@ -4,7 +4,7 @@
     "region": "Pennsylvania",
     "country": "United States"
   },
-  "count": 25,
+  "count": 26,
   "places": [
     {
       "region": "Delhi",
@@ -89,6 +89,12 @@
       "country": "United States",
       "firstCity": "Chicago",
       "key": "illinois|united states"
+    },
+    {
+      "region": "Louisiana",
+      "country": "United States",
+      "firstCity": "New Orleans",
+      "key": "louisiana|united states"
     },
     {
       "region": "Maryland",
