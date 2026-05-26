@@ -9,20 +9,20 @@ A fully automated digital observatory of my existence. Because if it's not in JS
 <!-- API_STATUS_START -->
 ### API Status
 - Index: https://saiyyamkochar-29.github.io/kochu-apis/api.json
-- Last updated: 2026-05-18T04:03:11.280Z
+- Last updated: 2026-05-26T00:42:24.877Z
 - Health: 10/10 OK, 0 errors
 
 Endpoints:
-- [contributions](/kochu-apis/api/contributions.json) • ok • 2026-05-11T06:48:55.299Z
-- [games](/kochu-apis/api/games.json) • ok • 2026-05-18T02:52:18.848Z
+- [contributions](/kochu-apis/api/contributions.json) • ok • 2026-05-25T07:57:00.414Z
+- [games](/kochu-apis/api/games.json) • ok • 2026-05-25T02:58:20.118Z
 - [location](/kochu-apis/api/location.json) • ok • Apr 17, 2026 at 7:00 AM
 - [music](/kochu-apis/api/music.json) • ok • null
 - [places](/kochu-apis/api/places.json) • ok • null
 - [sleep](/kochu-apis/api/sleep.json) • ok • 2026-02-08T17:59:37.167Z
 - [steps](/kochu-apis/api/steps.json) • ok • 2026-04-16T23:15:10-04:00
-- [todoist](/kochu-apis/api/todoist.json) • ok • 2026-05-11T08:21:55.755Z
-- [whatpulse](/kochu-apis/api/whatpulse.json) • ok • 2026-05-18T04:03:17.955Z
-- [whatpulse-weekly](/kochu-apis/api/whatpulse-weekly.json) • ok • 2026-05-18T04:03:17.956Z
+- [todoist](/kochu-apis/api/todoist.json) • ok • 2026-05-25T08:53:13.671Z
+- [whatpulse](/kochu-apis/api/whatpulse.json) • ok • 2026-05-26T00:42:09.098Z
+- [whatpulse-weekly](/kochu-apis/api/whatpulse-weekly.json) • ok • 2026-05-26T00:42:09.099Z
 
 <!-- API_STATUS_END -->
 
