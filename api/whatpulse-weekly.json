@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-05-18T04:03:17.956Z",
+  "updatedAt": "2026-05-26T00:42:09.099Z",
   "source": "whatpulse-client-api",
   "window": "weekly",
-  "range": "2026-04-01T01:18:05.240Z/2026-05-18T04:03:17.956Z",
+  "range": "2026-05-18T04:03:17.956Z/2026-05-26T00:42:09.099Z",
   "counters": {
-    "keys": 6503,
-    "clicks": 4793,
-    "scrolls": 2577,
-    "uptimeSeconds": 23923
+    "keys": 5898,
+    "clicks": 7642,
+    "scrolls": 3229,
+    "uptimeSeconds": 34662
   },
   "note": null
 }

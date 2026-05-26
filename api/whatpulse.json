@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-05-18T04:03:17.955Z",
+  "updatedAt": "2026-05-26T00:42:09.098Z",
   "source": "whatpulse-client-api",
   "totals": {
-    "keys": 64576,
-    "clicks": 35869,
-    "scrolls": 15224,
-    "uptimeSeconds": 223534
+    "keys": 70474,
+    "clicks": 43511,
+    "scrolls": 18453,
+    "uptimeSeconds": 258196
   },
   "unpulsed": {
-    "keys": 64576,
-    "clicks": 35869,
-    "scrolls": 15224,
-    "uptimeSeconds": 223534
+    "keys": 70474,
+    "clicks": 43511,
+    "scrolls": 18453,
+    "uptimeSeconds": 258196
   },
   "debug": {
     "topLevelKeys": [
