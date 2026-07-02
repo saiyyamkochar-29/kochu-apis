@@ -2,32 +2,7 @@
   "topArtists": [
     {
       "name": "Fred again..",
-      "playcount": 6,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "Barry Can't Swim",
       "playcount": 3,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "Ian Asher",
-      "playcount": 3,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "Mau P",
-      "playcount": 3,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "ANOTR",
-      "playcount": 2,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "Ben Böhmer",
-      "playcount": 2,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
@@ -36,17 +11,27 @@
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
-      "name": "Fisher",
+      "name": "Ian Asher",
       "playcount": 2,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
-      "name": "Sammy Virji",
+      "name": "Mau P",
       "playcount": 2,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
-      "name": "all things break",
+      "name": "ANOTR",
+      "playcount": 1,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+    },
+    {
+      "name": "Barry Can't Swim",
+      "playcount": 1,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+    },
+    {
+      "name": "Ben Böhmer",
       "playcount": 1,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
@@ -56,12 +41,7 @@
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
-      "name": "Clarcq",
-      "playcount": 1,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "Disco Lines",
+      "name": "Fisher",
       "playcount": 1,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
@@ -71,7 +51,7 @@
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
-      "name": "High Beam",
+      "name": "Sammy Virji",
       "playcount": 1,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
