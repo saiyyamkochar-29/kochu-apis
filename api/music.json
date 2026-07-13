@@ -2,7 +2,7 @@
   "topArtists": [
     {
       "name": "Calmly",
-      "playcount": 299,
+      "playcount": 217,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
@@ -12,31 +12,11 @@
     },
     {
       "name": "Luminary Night",
-      "playcount": 6,
+      "playcount": 4,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
       "name": "A´leroi",
-      "playcount": 3,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "Jón Sébastien",
-      "playcount": 3,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "Melissa Gio",
-      "playcount": 3,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "Moonhollow",
-      "playcount": 3,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "Sonical Serenity",
       "playcount": 3,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
@@ -73,6 +53,26 @@
     {
       "name": "Ian Asher",
       "playcount": 2,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+    },
+    {
+      "name": "Moonhollow",
+      "playcount": 2,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+    },
+    {
+      "name": "Thalia Serenade",
+      "playcount": 2,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+    },
+    {
+      "name": "Zensimila",
+      "playcount": 2,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+    },
+    {
+      "name": "Ambarta",
+      "playcount": 1,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
   ]
