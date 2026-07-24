@@ -2,31 +2,16 @@
   "topArtists": [
     {
       "name": "Calmly",
-      "playcount": 214,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "Kai Stellar",
-      "playcount": 3,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "A´leroi",
-      "playcount": 2,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "Abstract Time",
-      "playcount": 2,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "Fourth Eye",
-      "playcount": 2,
+      "playcount": 142,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
       "name": "Jón Sébastien",
+      "playcount": 2,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+    },
+    {
+      "name": "Kai Stellar",
       "playcount": 2,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
@@ -36,12 +21,12 @@
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
-      "name": "Diljit Dosanjh",
+      "name": "Abstract Time",
       "playcount": 1,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
-      "name": "Enyra",
+      "name": "Diljit Dosanjh",
       "playcount": 1,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
@@ -51,7 +36,7 @@
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
     {
-      "name": "Garden Collective",
+      "name": "Fourth Eye",
       "playcount": 1,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     },
@@ -67,11 +52,6 @@
     },
     {
       "name": "Sonical Serenity",
-      "playcount": 1,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-    },
-    {
-      "name": "Thalia Serenade",
       "playcount": 1,
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
     }
